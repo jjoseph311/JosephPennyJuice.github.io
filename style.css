@@ -132,8 +132,6 @@ footer {
     padding: 20px 0;
     font-family: 'Quicksand', sans-serif;
 }
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 300 to 700
 
 .quicksand-<uniquifier> {
   font-family: "Quicksand", sans-serif;
