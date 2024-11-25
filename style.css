@@ -33,67 +33,62 @@ h1, h2, h3 {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;  /* This makes the navigation items appear in a row */
+    display: flex;  
 }
 
 .nav li {
-    margin-right: 15px;  /* Add spacing between navigation items */
+    margin-right: 15px;  
 }
 
 .nav a {
-    display: inline-block;  /* Keeps links inline */
-    padding: 6px 12px;      /* Add padding inside the box */
-    text-decoration: none;  /* Remove underline */
-    color: #66FFFF;         /* Text color */
-    background-color: #273B93; /* Background color of the box */
-    border: none;           /* No border */
-    border-radius: 5px;     /* Rounded corners */
-    transition: all 0.3s ease; /* Smooth transition for hover effects */
+    display: inline-block;  
+    padding: 6px 12px;      
+    text-decoration: none;  
+    color: #66FFFF;         
+    background-color: #273B93; 
+    border: none;           
+    border-radius: 5px;     
+    transition: all 0.3s ease; 
 }
 
 .nav a:hover {
-    background-color: #FF6600; /* Change background on hover */
-    color: #66FFFF;             /* Change text color on hover */
+    background-color: #FF6600; 
+    color: #66FFFF;             
 }
 
-/* Style the dropdown menu if applicable */
+
 .nav li ul {
-    display: none;            /* Hide the dropdown by default */
-    position: absolute;       /* Position the dropdown below the parent item */
-    background-color: #273B93; /* Background color for the dropdown */
+    display: none;            
+    position: absolute;       
+    background-color: #273B93; 
     padding: 8px 0;
     list-style: none;
-    border: none;             /* No border */
-    border-radius: 5px;       /* Rounded corners */
+    border: none;             
+    border-radius: 5px;      
 }
 
 .nav li:hover > ul {
-    display: block;           /* Show dropdown when hovering over the parent item */
+    display: block;           
 }
 
 .nav li ul li {
-    margin-bottom: 8px;      /* Space between dropdown items */
+    margin-bottom: 8px;      
 }
 
 .nav li ul li a {
-    border: none;             /* Remove borders for dropdown items */
-    background-color: #273B93; /* Match background */
-    color: #66FFFF;           /* Text color */
-    padding: 6px 10px;        /* Padding for dropdown items */
-    display: block;           /* Make the links block-level for easier clicking */
-    border-radius: 3px;       /* Rounded corners for dropdown links */
+    border: none;             
+    background-color: #273B93; 
+    color: #66FFFF;           
+    padding: 6px 10px;        
+    display: block;           
+    border-radius: 3px;       
     font-size: 8px;
 }
 
 .nav li ul li a:hover {
-    background-color: #FF6600; /* Change dropdown link background on hover */
-    color: white;             /* Change text color */
+    background-color: #FF6600; 
+    color: white;             
 }
-
-
-
-
-/*IMAGE OF BOY*/
 
 
 /*IMAGE OF BOY*/
@@ -101,27 +96,27 @@ h1, h2, h3 {
 .image-wrapper {
     position: relative;
     width: 100%;
-    display: inline-block;  /* Allows the image to take full width */
+    display: inline-block;  
 }
 
 /*text on top of Image */
 .overlay-text {
     position: absolute;
-    top: 10px; /* Adjusts vertical position from the top */
-    right: 10px; /* Right-aligns the text */
-    color: #F6921E;  /* Orange color */
-    font-size: 60px;  /* Large font size */
+    top: 10px; 
+    right: 10px; 
+    color: #F6921E;  
+    font-size: 60px;  
     font-weight: bold;
-    text-align: right;  /* Ensures the text is right-aligned */
-    z-index: 1; /* Ensures text is above the image */
-    padding: 20px;  /* Adds some padding around the text */
-    line-height: 2; /* Adds space between text lines */
+    text-align: right;
+    z-index: 1; 
+    padding: 20px;  
+    line-height: 2; 
 }
 
-/* Adjust text size for smaller screens */
+
 @media (max-width: 600px) {
     .overlay-text {
-        font-size: 18px; /* Smaller font size for mobile */
+        font-size: 18px; 
     }
 }
 
@@ -133,14 +128,11 @@ h1, h2, h3 {
     box-sizing: border-box;
 }
 
-/* Footer Styles */
 footer {
-    background-color: #FFCC99; /* Light peach color */
+    background-color: #FFCC99; 
     padding: 20px 0;
-    font-family: 'Quicksand', sans-serif; /* Apply Quicksand font */
+    font-family: 'Quicksand', sans-serif; 
 }
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 300 to 700
 
 .quicksand-<uniquifier> {
   font-family: "Quicksand", sans-serif;
@@ -157,7 +149,6 @@ footer {
     padding: 0 20px;
 }
 
-/* Left Side (Contact Info) */
 .footer-left {
     flex: 1;
     text-align: left;
@@ -168,14 +159,13 @@ footer {
     margin-bottom: 8px;
 }
 
-/* Centered Content (Logo and Text) */
 .footer-center {
     flex: 2;
     text-align: center;
 }
 
 .footer-logo {
-    max-width: 50px; /* Adjust logo size */
+    max-width: 50px; 
     margin-bottom: 5px;
 }
 
@@ -184,7 +174,6 @@ footer {
     font-size: 12px;
 }
 
-/* Right Side (Social Media Icons) */
 .footer-right {
     flex: 1;
     text-align: right;
@@ -222,7 +211,7 @@ footer {
     }
 
     .footer-logo {
-        max-width: 120px; /* Logo size adjustments for small screens */
+        max-width: 120px; 
     }
 }
 */
@@ -239,22 +228,22 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Main Container */
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
 
-/* Header Section Styles */
+
 .header-section {
-    text-align: left;  /* Left align text */
+    text-align: left; 
     padding: 20px;
     font-size: 20px;
     color: #273B93;
 }
 
-/* Middle Container Styles */
+
 .middle-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -263,14 +252,11 @@ body {
     margin-top: 40px;
 }
 
-/* Individual Squares Styles */
 .square {
     background-color: white;
     padding: 20px;
-    /* Removed border-radius and box-shadow to eliminate borders */
 }
 
-/* Header Box Styles */
 .header-box {
     background-color: #66FFFF;
     color: #273B93;
@@ -278,33 +264,31 @@ body {
     font-weight: bold;
     padding: 10px;
     margin-bottom: 15px;
-    display: flex; /* Use flexbox to align text and image */
-    justify-content: flex-start; /* Align text to the left */
-    align-items: center; /* Vertically align the text */
-    position: relative; /* Establishes a positioning context for the image */
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center; 
+    position: relative; 
     border-radius: 8px;
-    overflow: visible; /* Allow image overflow */
+    overflow: visible;
 }
 
 /* Header Text */
 .header-text {
-    flex: 1; /* Allow the text to take available space */
-    text-align: left; /* Align the header text to the left */
-    z-index: 1; /* Ensure text stays above the image */
+    flex: 1; 
+    text-align: left; 
+    z-index: 1; 
 }
 
-/* Header Image Styles - aligned to the right */
-.header-image {
-    position: absolute;  /* Allow the image to be positioned over the header box */
-    top: 50%;  /* Vertically center the image relative to the header box */
-    right: 10px; /* Align the image to the right of the box with some spacing */
-    transform: translateY(-50%);  /* Offset by 50% of the image height to center it vertically */
-    width: 200px;  /* Adjust the image size (large size for visibility) */
+    position: absolute; 
+    top: 50%;  
+    right: 10px; 
+    transform: translateY(-50%);  
+    width: 200px;
     height: auto;
-    z-index: 0; /* Ensure image stays behind the text */
+    z-index: 0;
 }
 
-/* Content List Styles */
+
 .content {
     list-style-type: none;
     padding: 0;
@@ -314,7 +298,7 @@ body {
     margin-bottom: 10px;
     font-size: 20px;
     color: #273B93;
-    padding-left: 30px; /* Indent the text slightly from the left */
+    padding-left: 30px; 
 }
 
 
@@ -322,31 +306,29 @@ body {
 
 /*PRODUCTS BLUE BOXES*/
 
-/* Style for the grid container */
-.grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);  /* 3 columns */
+    grid-template-columns: repeat(3, 1fr);  
     gap: 20px;
     width: 100%;
-    max-width: 1300px;  /* Adjust the width as needed */
+    max-width: 1300px;  
     margin: 0 auto;
 }
 
-/* Style for each grid item */
+
 .grid-item {
     display: flex;
     flex-direction: column;
-    align-items: center;  /* Center the content horizontally */
+    align-items: center;  
     justify-content: center;
 }
 
-/* Style for each box */
+
 .box {
     background-color: #66FFFF;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 700px;  /* Adjust as needed */
+    height: 700px;  
     width: 60%;
 }
 
@@ -354,25 +336,22 @@ body {
 .box-image {
     width: 100%;
     height: 100%;
-    object-fit: contain; /* Ensures the image covers the box */
+    object-fit: contain; 
 }
 
-/* Style for the text content under each box */
-.text-content {
+
     text-align: center;
-    color: #273B93;  /* Custom font color */
+    color: #273B93; 
     margin-top: 10px;
 }
 
-/* Style for juice flavor text */
-.flavor {
+
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 5px;
 }
 
-/* Style for description text */
-.description {
+
     font-size: 14px;
 }
 */
